@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo - Arthur Alexandre Lucindo</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f3f4f6;
+            color: #333;
+            line-height: 1.6;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+            display: grid;
+            grid-template-columns: 320px 1fr;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background: linear-gradient(180deg, #1e293b, #0f172a);
+            color: white;
+            padding: 40px 30px;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .profile img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 4px solid rgba(255,255,255,0.2);
+            object-fit: cover;
+        }
+
+        .profile h1 {
+            font-size: 26px;
+            margin-top: 18px;
+            line-height: 1.2;
+        }
+
+        .profile p {
+            color: #cbd5e1;
+            margin-top: 8px;
+            font-size: 15px;
+        }
+
+        .section-title {
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+            color: #93c5fd;
+            border-bottom: 1px solid rgba(255,255,255,0.15);
+            padding-bottom: 8px;
+        }
+
+        .contact p,
+        .skills li,
+        .courses li {
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #e2e8f0;
+        }
+
+        .skills ul,
+        .courses ul {
+            list-style: none;
+        }
+
+        .skill-tag {
+            background: rgba(255,255,255,0.08);
+            padding: 8px 12px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Main Content */
+        .content {
+            padding: 45px;
+        }
+
+        .content-section {
+            margin-bottom: 40px;
+        }
+
+        .content-section h2 {
+            color: #1e293b;
+            margin-bottom: 18px;
+            font-size: 24px;
+            border-left: 5px solid #2563eb;
+            padding-left: 12px;
+        }
+
+        .about {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .job {
+            margin-bottom: 28px;
+        }
+
+        .job h3 {
+            font-size: 20px;
+            color: #111827;
+        }
+
+        .job .company {
+            color: #2563eb;
+            font-weight: bold;
+        }
+
+        .job .period {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 8px;
+        }
+
+        .job ul {
+            margin-left: 20px;
+            color: #555;
+        }
+
+        .education-card {
+            background: #f8fafc;
+            border-left: 5px solid #2563eb;
+            padding: 18px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .education-card h4 {
+            color: #111827;
+        }
+
+        .education-card p {
+            color: #555;
+        }
+
+        @media(max-width: 900px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            .content {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="profile">
+            <img src="https://via.placeholder.com/130" alt="Foto Perfil">
+            <h1>Arthur Alexandre Lucindo</h1>
+            <p>Analista de Suporte & Infraestrutura de TI</p>
+        </div>
+
+        <div class="contact">
+            <h3 class="section-title">Contato</h3>
+            <p>📍 Campinas - SP</p>
+            <p>📞 (19) 99999-9999</p>
+            <p>✉ arthur.lucindo@email.com</p>
+            <p>💼 linkedin.com/in/arthurlucindo</p>
+        </div>
+
+        <br>
+
+        <div class="skills">
+            <h3 class="section-title">Competências</h3>
+            <ul>
+                <li class="skill-tag">Administração de Redes</li>
+                <li class="skill-tag">Firewall & Antivírus</li>
+                <li class="skill-tag">Windows Server</li>
+                <li class="skill-tag">Active Directory</li>
+                <li class="skill-tag">GPO</li>
+                <li class="skill-tag">Suporte ao Usuário</li>
+                <li class="skill-tag">Documentação Técnica</li>
+                <li class="skill-tag">Cabeamento Estruturado</li>
+                <li class="skill-tag">Inventário de TI</li>
+            </ul>
+        </div>
+
+        <br>
+
+        <div class="courses">
+            <h3 class="section-title">Cursos</h3>
+            <ul>
+                <li>NR-35 Trabalho em Altura</li>
+                <li>Redes de Computadores</li>
+                <li>Windows Server</li>
+                <li>Segurança da Informação</li>
+                <li>Firewall e Proteção Endpoint</li>
+            </ul>
+        </div>
+
+    </aside>
+
+    <!-- CONTENT -->
+    <main class="content">
+
+        <section class="content-section">
+            <h2>Resumo Profissional</h2>
+            <p class="about">
+                Profissional da área de Tecnologia da Informação com experiência em
+                suporte técnico, infraestrutura de redes, administração de usuários,
+                políticas de grupo (GPO), manutenção de equipamentos e documentação
+                técnica. Conhecimento em Active Directory, Windows Server,
+                segurança da informação e suporte ao ambiente corporativo.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Experiência Profissional</h2>
+
+            <div class="job">
+                <h3>Analista de Suporte de TI</h3>
+                <p class="company">Empresa Exemplo Industrial LTDA</p>
+                <p class="period">2023 - Atual</p>
+
+                <ul>
+                    <li>Administração de usuários no Active Directory.</li>
+                    <li>Criação e gerenciamento de políticas GPO.</li>
+                    <li>Suporte técnico presencial e remoto.</li>
+                    <li>Gerenciamento de firewall e antivírus corporativo.</li>
+                    <li>Documentação de processos e infraestrutura.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Assistente de Infraestrutura</h3>
+                <p class="company">Tech Solutions Brasil</p>
+                <p class="period">2021 - 2023</p>
+
+                <ul>
+                    <li>Instalação e manutenção de computadores.</li>
+                    <li>Suporte a redes, impressoras e telefonia.</li>
+                    <li>Controle de inventário de equipamentos.</li>
+                    <li>Atendimento aos usuários internos.</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="content-section">
+            <h2>Formação Acadêmica</h2>
+
+            <div class="education-card">
+                <h4>Análise e Desenvolvimento de Sistemas</h4>
+                <p>Universidade Paulista (UNIP)</p>
+                <p>2022 - 2025</p>
+            </div>
+
+            <div class="education-card">
+                <h4>Técnico em Informática</h4>
+                <p>Senai Campinas</p>
+                <p>2019 - 2021</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Idiomas</h2>
+            <p><strong>Português:</strong> Nativo</p>
+            <p><strong>Inglês:</strong> Intermediário (B1+)</p>
+        </section>
+
+    </main>
+</div>
+
+</body>
+</html>
